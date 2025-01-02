@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edt Services</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #d3c9c1; /* Beige */
+      color: #3d3d3d;
+      padding: 2rem 0;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 5px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0;
+      font-weight: 300;
+    }
+
+    nav {
+      text-align: center;
+      background-color: #e5d5d1; /* Light Pink */
+      padding: 1rem 0;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #3d3d3d;
+      margin: 0 25px;
+      font-weight: bold;
+      font-size: 1.1rem;
+      transition: color 0.3s ease-in-out;
+    }
+
+    nav a:hover {
+      color: #d3c9c1; /* Beige */
+    }
+
+    .hero-section {
+      background-color: #f1f1f1;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+
+    .hero-section h2 {
+      font-size: 2rem;
+      margin-bottom: 15px;
+    }
+
+    .hero-section p {
+      font-size: 1.1rem;
+      margin-top: 0;
+      font-weight: 300;
+    }
+
+    .services {
+      padding: 4rem 2rem;
+      background-color: #fff;
+      text-align: center;
+    }
+
+    .services h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .services ul {
+      list-style-type: none;
+      padding: 0;
+      margin-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .services li {
+      background-color: #d3c9c1; /* Beige */
+      margin: 15px;
+      padding: 15px;
+      border-radius: 10px;
+      width: 220px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      font-size: 1rem;
+      transition: transform 0.3s ease;
+    }
+
+    .services li:hover {
+      transform: translateY(-8px);
+    }
+
+    .about {
+      padding: 4rem 2rem;
+      text-align: center;
+      background-color: #fff;
+    }
+
+    .about h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .about p {
+      font-size: 1.1rem;
+      margin: 0 auto;
+      max-width: 800px;
+      line-height: 1.5;
+    }
+
+    .options {
+      padding: 4rem 2rem;
+      background-color: #f1f1f1;
+      text-align: center;
+    }
+
+    .options h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .options p {
+      font-size: 1.1rem;
+      margin-top: 0;
+      margin-bottom: 1.5rem;
+    }
+
+    .options ul {
+      list-style-type: none;
+      padding: 0;
+      margin-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .options li {
+      background-color: #d3c9c1; /* Beige */
+      margin: 10px;
+      padding: 15px;
+      border-radius: 10px;
+      width: 220px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      font-size: 1rem;
+      transition: transform 0.3s ease;
+    }
+
+    .options li:hover {
+      transform: translateY(-8px);
+    }
+
+    .contact {
+      background-color: #e5d5d1; /* Light Pink */
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+
+    .contact h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .contact p {
+      font-size: 1.1rem;
+      margin-top: 10px;
+    }
+
+    footer {
+      background-color: #3d3d3d; /* Dark Grey */
+      color: white;
+      text-align: center;
+      padding: 1.5rem 0;
+      margin-top: 2rem;
+    }
+
+    footer p {
+      font-size: 1rem;
+      margin: 0;
+    }
+
+    /* Mobile Styling */
+    @media screen and (max-width: 768px) {
+      nav a {
+        margin: 0 10px;
+        font-size: 1rem;
+      }
+
+      .services ul,
+      .options ul {
+        flex-direction: column;
+      }
+
+      .services li,
+      .options li {
+        width: 90%;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Edt Services</h1>
+    <p>Your Go-To Design and Advertising Service</p>
+  </header>
+
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#options">Options</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero-section">
+    <h2>Transforming Your Ideas into Creative Designs</h2>
+    <p>At Edt Services, we offer professional design solutions for businesses and individuals. From logos to business cards and more, we help you make your brand stand out.</p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Business Card Design - R150</li>
+      <li>Invitations/Announcements - R200</li>
+      <li>T-shirt Design - R150</li>
+      <li>Advertisement - R250</li>
+      <li>Logo Design - R200</li>
+    </ul>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>Edt Services is a creative design business founded by two passionate individuals who specialize in transforming your vision into beautiful, functional designs. We pride ourselves on understanding your needs and delivering high-quality design work with a personalized touch.</p>
+  </section>
+
+  <section id="options" class="options">
+    <h2>Available Options</h2>
+    <p>We offer flexible and customized design packages to suit your specific needs. Whether you're a small business or a large enterprise, we have solutions for everyone.</p>
+    <ul>
+      <li> Package: Invetation + Announcement - R350</li>
+      <li>Standard Package: Logo design + Business Card design + advertisement design - R300</li>
+      <li>Premium Package: Full Branding Package ; Logo Design + Business card design + Advertisement design - R500</li>
+      <li>Custom Design Option: Tailored to Your Needs - Price Upon Request</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: edt.services24@gmail.com</p>
+    <p>Phone: 071 323 8597</p>
+    <p>Feel free to reach out for any inquiries or to get started on your next project!</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Edt Services. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
